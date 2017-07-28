@@ -9,4 +9,5 @@ RUN apt-get clean && \
     apt-get install -y libmaven3-core-java=3.3.9-3~bpo8+1 && \
     apt-get install -y libsisu-inject-java=0.3.2-1~bpo8+1 && \
     apt-get install -y libsisu-plexus-java=0.3.2-1~bpo8+1 && \
-    apt-get install -y maven=3.3.9-3~bpo8+1
+    apt-get install -y maven=3.3.9-3~bpo8+1 && \
+    apt-get clean
